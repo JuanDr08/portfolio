@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 15px;
   background: #442917;
   position: sticky;
-  z-index: 11;
+  z-index: 12;
   top: 0;
   display: grid;
   grid-template-columns: 10% auto;
@@ -132,6 +132,8 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   height: 100%;
   display: flex;
+  position: relative;
+  z-index: 1000;
   gap: 25px;
   align-items: center;
   justify-content: space-between;
@@ -306,10 +308,10 @@ h1, h2, h3, h4, h5, h6, p {
   grid-row-gap: 2rem;
 }
 .main .conocimientos .contenedor .contenedor-conocimientos .tarjeta {
-  margin: 4rem auto 0 auto;
+  margin: 2rem auto 0 auto;
   position: relative;
-  width: 18.75rem;
-  height: 25rem;
+  width: 13.75rem;
+  height: 20rem;
   background: #fff;
   overflow: hidden;
   border-radius: 10px;
@@ -360,6 +362,7 @@ h1, h2, h3, h4, h5, h6, p {
   left: 0;
   width: 100%;
   height: 100%;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
