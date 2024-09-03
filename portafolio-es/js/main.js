@@ -30,7 +30,7 @@ $('document').ready(function(){
         caret:'<span style="color:hotpink;">•</span>',
         typing:function(elm,chr){
         if(chr.match(/\-trigger/))
-            $('#pow-txt').show().delay(500).fadeOut(0);
+            $('#pow-txt').show().delay(100).fadeOut(0);
         }
     });
 
